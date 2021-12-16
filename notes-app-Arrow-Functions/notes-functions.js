@@ -63,8 +63,9 @@
 
 
 
+
 // Read existing notes from localStorage
-const getSavedNotes =  () => {
+const getSavedNotes = function () {
     const notesJSON = localStorage.getItem('notes')
 
     if (notesJSON !== null) {
@@ -75,14 +76,15 @@ const getSavedNotes =  () => {
 }
 
 // Save the notes to localStorage
-const saveNotes =  (notes) => {
+const saveNotes = function (notes) {
     localStorage.setItem('notes', JSON.stringify(notes))
 }
 
 // Remove a note from the list
-const removeNote =  (id) => {
-    const noteIndex = notes.findIndex((note) =>  note.id === id )
-
+const removeNote = function (id) {
+    const noteIndex = notes.findIndex(function (note) {
+        return note.id === id
+    })
 
     if (noteIndex > -1) {
         notes.splice(noteIndex, 1)
