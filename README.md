@@ -7,5 +7,5 @@
    notes app it is crashing.
    
  3. if notes app in arrow functions crashes then solve the problem by editing by comparing - vid no: 81 
- 4. 
+ 4. add truthy and faksy value folder for notes app vid: no- 83 
 
