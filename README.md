@@ -12,3 +12,4 @@
   
  5. add truthy and faksy value folder for notes app vid: no- 83 
 
+ 6. Add trycatch top notes app vid no 86
